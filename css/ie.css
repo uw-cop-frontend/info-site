@@ -1,0 +1,9 @@
+.uw-patch {
+  background: url(../assets/img/uw-sprite-mini.png) no-repeat 0 -3px transparent;
+}
+.uw-wordmark {
+  background: url(../assets/img/uw-sprite-mini.png) no-repeat 0 -74px transparent;
+}
+.uw-thinstrip_nav .elem-item:last-child .elem-link:after {
+   background: url(../assets/img/uw-sprite-mini.png) no-repeat -696px 0;
+}
