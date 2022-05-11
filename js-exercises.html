@@ -31,8 +31,8 @@
                         href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Test_your_skills:_Object_basics">Test
                         your Skills: Object Basics</a>
                     <ul>
-                        <li><a href="">TBD</a></li>
-                        <li><a href="">TBD</a></li>
+                        <li><a href="#objects-1">Object basics 1</a></li>
+                        <li><a href="#objects-2">Object basics 2</a></li>
                     </ul>
                 </li>
             </ul>
@@ -126,6 +126,88 @@
     console.log(arrayValue);
     // → [5, 4, 3, 2, 1]
 </pre></code>
+
+            <h2 id="objects-1">Object basics 1</h2>
+
+            <p>In this task you are provided with an object literal, and your tasks are to</p>
+            <ul>
+                <li>Store the value of the <code>name</code> property inside the <code>catName</code> variable,
+                    using bracket notation.</li>
+                <li>Run the <code>greeting()</code> method using dot notation (it will log the greeting to the
+                    browser's console).</li>
+                <li>Update the <code>color</code> property value to <code>black</code>.</li>
+            </ul>
+            <p>Start up code:</p>
+            <code><pre>
+    const cat = {
+        name : 'Bertie',
+        breed : 'Cymric',
+        color : 'white',
+        greeting: function() {
+            console.log('Meow!');
+        }
+        }
+        
+        // Put your code here
+        
+        
+        
+        // Don't edit the code below here
+        
+        let para1 = document.createElement('p');
+        let para2 = document.createElement('p');
+        
+        para1.textContent = `The cat's name is ${ catName }.`;
+        para2.textContent = `The cat's color is ${ cat.color }.`;
+        
+        section.appendChild(para1);
+        section.appendChild(para2);
+                    </pre></code>
+
+
+
+            <h2 id="objects-2">Object basics
+                2</h2>
+
+            <p>In our next task, we want you to have a go at creating your own object literal to represent one
+                of your favorite bands. The required properties are:</p>
+            <ul>
+                <li><code>name</code>: A string representing the band name.</li>
+                <li><code>nationality</code>: A string representing the country the band comes from.</li>
+                <li><code>genre</code>: What type of music the band plays.</li>
+                <li><code>members</code>: A number representing the number of members the band has.</li>
+                <li><code>formed</code>: A number representing the year the band formed.</li>
+                <li><code>split</code>: A number representing the year the band split up, or <code>false</code>
+                    if they are still together.</li>
+                <li><code>albums</code>: An array representing the albums released by the band. Each array item
+                    should be an object containing the following members:
+                    <ul>
+                        <li><code>name</code>: A string representing the name of the album.</li>
+                        <li><code>released</code>: A number representing the year the album was released.</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Include at least two albums in the <code>albums</code> array.</p>
+            <p>Once you've done this, you should then write a string to the variable <code>bandInfo</code>,
+                which will contain a small biography detailing their name, nationality, years active, and style,
+                and the title and release date of their first album.</p>
+            <p>Start up code:</p>
+            <code><pre>
+    let bandInfo;
+
+    // Put your code here
+
+
+    // Don't edit the code below here
+
+    let para1 = document.createElement('p');
+    para1.textContent = bandInfo;
+    section.appendChild(para1);
+                            </pre>
+                            </code>
+
+
+
         </div>
     </main>
 </body>
